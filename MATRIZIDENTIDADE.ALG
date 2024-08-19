@@ -1,0 +1,24 @@
+Algoritmo "MatrizIdentidade"
+
+Var
+ mID: vetor [1..4, 1..4] de Inteiro
+ i, j: Inteiro
+
+Inicio
+      Para i <- 1 ate 4 faca
+           Para j <- 1 ate 4 faca
+                Se (i = j)entao
+                   mID [i,j] <- 1
+                Senao
+                   mID [i,j] <- 0
+                FimSe
+           FimPara
+      Fimpara
+      
+      Para i <- 1 ate 4 faca
+           Para j <- 1 ate 4 faca
+                Escreva (mID[i,j]:3)
+           FimPara
+           EscrevaL()
+      FimPara
+Fimalgoritmo
